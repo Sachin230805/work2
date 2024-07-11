@@ -6,7 +6,7 @@ import time
  
 
 app = FastAPI()
-
+app.config['SECRET_KEY']="secret123"
 origins=["*"]
 
 app.add_middleware(
