@@ -1,8 +1,6 @@
 from fastapi import FastAPI,Body,status,HTTPException,Depends
 from pydantic import BaseModel
-import psycopg2
-from psycopg2.extras import RealDictCursor
-from sqlalchemy.orm import Session
+
 from fastapi.middleware.cors import CORSMiddleware
 import time
  
